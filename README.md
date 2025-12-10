@@ -1,4 +1,4 @@
-# SpaDAC: SPAtially embedded Deep Attentional graph Clustering
+# SpaMOAL: A spatial multi-omics graph contrastive learning method for spatial domains identification
 ## Overview
 Recent advances in spatial multi-omics technologies have opened new avenues for characterizing tissue architecture and 
 function in situ, by simultaneously providing multimodal and complementary information—such as spatially resolved 
@@ -48,7 +48,7 @@ python deal_inception.py --name mouse_embryos --size 299 --model resnet50  (or i
 ##### ```--size```: Image resolution
 ##### ```--model```: The Convolutional Neural Network used
 
-#### 3-4  training
+#### 3-3  training
 ```
 cd SpaMOAL
 python main_old.py --dataset mouse_embryos --omics1 RNA --omics2 ATAC --input_folder /input/mouse_embryos/  --n_clusters 14  --num_iters 10 --omics3 image --num_view 3
@@ -62,11 +62,8 @@ python main_old.py --dataset mouse_embryos --omics1 RNA --omics2 ATAC --input_fo
 ##### ```--omics2```: Name of omics
 ##### ```--num_view```: Number of modals
 
-#### 3-6 Clustering and optimization
-```
-cd SpaMOAL
-python clustering.py
-```
+#### 3-4 Clustering and Visualization
+We provided specific examples of clustering and visualization in the notebook.
 
 ### 4. Download data
 The simulated datasets is available at [https://github.com/XiangyuLi-Lab/SpaMOAL](https://github.com/XiangyuLi-Lab/SpaMOAL). The MISAR-seq mouse brain dataset is accessible at the National Genomics Data Center with accession number OEP003285. The spatial ATAC-RNA-seq mouse brain dataset can be found at [atlasxomics](https://web.atlasxomics.com/visualization/Fan). Spatial ATAC-RNA-seq mouse embryonic day 13 (E13) data reported in https://cells.ucsc.edu/?ds=brain-spatial-omics. 10x Visium human breast cancer gene and protein expression data can be found at https://www.10xgenomics.com/resources/datasets/gene-and-protein-expression-library-of-human-breast-cancer-cytassist-ffpe-2-standard.
