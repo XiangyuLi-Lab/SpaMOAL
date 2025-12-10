@@ -1,4 +1,4 @@
-[Fig1.tif](https://github.com/user-attachments/files/24066971/Fig1.tif)# SpaDAC: SPAtially embedded Deep Attentional graph Clustering
+# SpaDAC: SPAtially embedded Deep Attentional graph Clustering
 ## Overview
 Recent advances in spatial multi-omics technologies have opened new avenues for characterizing tissue architecture and 
 function in situ, by simultaneously providing multimodal and complementary information—such as spatially resolved 
@@ -18,7 +18,7 @@ organization and cellular microenvironments.
 ## Tutorial
 #### Start by grabbing this source codes:
 ```
-git clone https://github.com/huoyuying/SpaDAC.git
+git clone https://github.com/XiangyuLi-Lab/SpaMOAL.git
 cd SpaMOAL
 ```
 
@@ -51,28 +51,23 @@ python deal_inception.py --name mouse_embryos --size 299 --model resnet50  (or i
 #### 3-4  training
 ```
 cd SpaMOAL
-python main_old.py --dataset mouse_embryos --omics1 RNA --omics2 ATAC --input_folder /input/mouse_embryos/  --n_clusters 14  --num_iters 10 --omics3 image_unnormalize --num_view 3
-
+python main_old.py --dataset mouse_embryos --omics1 RNA --omics2 ATAC --input_folder /input/mouse_embryos/  --n_clusters 14  --num_iters 10 --omics3 image --num_view 3
 ```
 ##### ```--dataset```: Name of sample
-##### ```--omics1```: Name of sample
-##### ```--omics2```: Name of sample
-##### ```--dataset```: Name of sample
-##### ```--exp```: The number of highly variable features(HVGs) selected
-##### ```--adj```: The 01-Matrix of whether cells are neighbors or not, based on geographical similarity
-##### ```--img```: The 01-Matrix of whether cells are neighbors or not, based on morphological similarity
-##### ```--max_epoch```: The number of iterations of this training
+##### ```--omics1```: Name of omics
+##### ```--omics2```: Name of omics
+##### ```--input_folder```: Path of feature input files
+##### ```--n_clusters```: Number of clusters 
+##### ```--num_iters```: Number of training iterations
+##### ```--omics2```: Name of omics
+##### ```--num_view```: Number of modals
 
 #### 3-6 Clustering and optimization
 ```
-cd SpaDAC
+cd SpaMOAL
 python clustering.py
 ```
-#### 3-7 Denoising of gene expression profile
-```
-cd SpaDAC/denoising
-python denoising.py
-```
+
 ### 4. Download data
 The simulated datasets is available at [https://github.com/XiangyuLi-Lab/SpaMOAL](https://github.com/XiangyuLi-Lab/SpaMOAL). The MISAR-seq mouse brain dataset is accessible at the National Genomics Data Center with accession number OEP003285. The spatial ATAC-RNA-seq mouse brain dataset can be found at [atlasxomics](https://web.atlasxomics.com/visualization/Fan). Spatial ATAC-RNA-seq mouse embryonic day 13 (E13) data reported in https://cells.ucsc.edu/?ds=brain-spatial-omics. 10x Visium human breast cancer gene and protein expression data can be found at https://www.10xgenomics.com/resources/datasets/gene-and-protein-expression-library-of-human-breast-cancer-cytassist-ffpe-2-standard.
 ### 5. Contact
