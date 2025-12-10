@@ -1,4 +1,4 @@
-# SpaDAC: SPAtially embedded Deep Attentional graph Clustering
+[Fig1.tif](https://github.com/user-attachments/files/24066971/Fig1.tif)# SpaDAC: SPAtially embedded Deep Attentional graph Clustering
 ## Overview
 Recent advances in spatial multi-omics technologies have opened new avenues for characterizing tissue architecture and 
 function in situ, by simultaneously providing multimodal and complementary information—such as spatially resolved 
@@ -12,7 +12,7 @@ recent paired spatial multi-omics datasets demonstrated that SpaMOAL consistentl
 enabling accurate spatial domain delineation, SpaMOAL provides a powerful framework for interpreting tissue 
 organization and cellular microenvironments.   
 <p align="center">
-  [Uploading Fig1.tif…]()
+  ![Fig1](https://github.com/user-attachments/assets/a2c7d79b-677d-48ec-bd4b-ccd015e0815e)
 </p>
 
 ## Tutorial
@@ -76,13 +76,12 @@ python denoising.py
 ### 4. Download data
 |      Platform      |       Tissue     |    SampleID   |
 |:----------------:|:----------------:|:------------:|
-| [10x Visium](https://support.10xgenomics.com) | Human dorsolateral pre-frontal cortex (DLPFC) | [151507,](https://spatial-dlpfc.s3.us-east-2.amazonaws.com/h5/151507_filtered_feature_bc_matrix.h5) [151508,](https://spatial-dlpfc.s3.us-east-2.amazonaws.com/h5/151508_filtered_feature_bc_matrix.h5) [151509,](https://spatial-dlpfc.s3.us-east-2.amazonaws.com/h5/151509_filtered_feature_bc_matrix.h5) [151510,](https://spatial-dlpfc.s3.us-east-2.amazonaws.com/h5/151510_filtered_feature_bc_matrix.h5) [151669,](https://spatial-dlpfc.s3.us-east-2.amazonaws.com/h5/151669_filtered_feature_bc_matrix.h5) [151670,](https://spatial-dlpfc.s3.us-east-2.amazonaws.com/h5/151570_filtered_feature_bc_matrix.h5) [151671,](https://spatial-dlpfc.s3.us-east-2.amazonaws.com/h5/151671_filtered_feature_bc_matrix.h5) [151672,](https://spatial-dlpfc.s3.us-east-2.amazonaws.com/h5/151672_filtered_feature_bc_matrix.h5) [151673,](https://spatial-dlpfc.s3.us-east-2.amazonaws.com/h5/151673_filtered_feature_bc_matrix.h5) [151674,](https://spatial-dlpfc.s3.us-east-2.amazonaws.com/h5/151674_filtered_feature_bc_matrix.h5) [151675,](https://spatial-dlpfc.s3.us-east-2.amazonaws.com/h5/151675_filtered_feature_bc_matrix.h5) [151676](https://spatial-dlpfc.s3.us-east-2.amazonaws.com/h5/151676_filtered_feature_bc_matrix.h5)
+| ) | Human dorsolateral pre-frontal cortex (DLPFC) | [151507,](https://spatial-dlpfc.s3.us-east-2.amazonaws.com/h5/151507_filtered_feature_bc_matrix.h5) [151508,](https://spatial-dlpfc.s3.us-east-2.amazonaws.com/h5/151508_filtered_feature_bc_matrix.h5) [151509,](https://spatial-dlpfc.s3.us-east-2.amazonaws.com/h5/151509_filtered_feature_bc_matrix.h5) [151510,](https://spatial-dlpfc.s3.us-east-2.amazonaws.com/h5/151510_filtered_feature_bc_matrix.h5) [151669,](https://spatial-dlpfc.s3.us-east-2.amazonaws.com/h5/151669_filtered_feature_bc_matrix.h5) [151670,](https://spatial-dlpfc.s3.us-east-2.amazonaws.com/h5/151570_filtered_feature_bc_matrix.h5) [151671,](https://spatial-dlpfc.s3.us-east-2.amazonaws.com/h5/151671_filtered_feature_bc_matrix.h5) [151672,](https://spatial-dlpfc.s3.us-east-2.amazonaws.com/h5/151672_filtered_feature_bc_matrix.h5) [151673,](https://spatial-dlpfc.s3.us-east-2.amazonaws.com/h5/151673_filtered_feature_bc_matrix.h5) [151674,](https://spatial-dlpfc.s3.us-east-2.amazonaws.com/h5/151674_filtered_feature_bc_matrix.h5) [151675,](https://spatial-dlpfc.s3.us-east-2.amazonaws.com/h5/151675_filtered_feature_bc_matrix.h5) [151676](https://spatial-dlpfc.s3.us-east-2.amazonaws.com/h5/151676_filtered_feature_bc_matrix.h5)
 | [10x Visium](https://support.10xgenomics.com) | Mouse brain section| [Sagittal-Anterior,](https://www.10xgenomics.com/resources/datasets/mouse-brain-serial-section-1-sagittal-anterior-1-standard-1-1-0) [Sagittal-Posterior](https://www.10xgenomics.com/resources/datasets/mouse-brain-serial-section-1-sagittal-posterior-1-standard-1-1-0)
 | [10x Visium](https://support.10xgenomics.com) | Human breast cancer| [Ductal Carcinoma In Situ & Invasive Carcinoma](https://www.10xgenomics.com/resources/datasets/human-breast-cancer-ductal-carcinoma-in-situ-invasive-carcinoma-ffpe-1-standard-1-3-0) 
-| [Stereo-Seq](https://www.biorxiv.org/content/10.1101/2021.01.17.427004v2) | Mouse olfactory bulb| [Olfactory bulb](https://github.com/BGIResearch/stereopy) 
-| [ST](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE111672) |  Pancreatic ductal adenocarcinoma tissue| [PDAC1,](https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE111672&format=file&file=GSE111672%5FPDAC%2DA%2Dindrop%2Dfiltered%2DexpMat%2Etxt%2Egz) [PDAC2](https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE111672&format=file&file=GSE111672%5FPDAC%2DB%2Dindrop%2Dfiltered%2DexpMat%2Etxt%2Egz) 
+| [Stereo-Seq](https://www.biorxiv.org/content/10.1101/2021.01.17.427004v2) | Mouse olfactory bulb| [Olfactory bulb]([https://github.com/BGIResearch/stereopy](https://web.atlasxomics.com/visualization/Fan)) 
 
-Spatial transcriptomics data of other platforms can be downloaded https://www.spatialomics.org/SpatialDB/
 
+The simulated datasets is available at [https://github.com/XiangyuLi-Lab/SpaMOAL](https://github.com/XiangyuLi-Lab/SpaMOAL). The MISAR-seq mouse brain dataset is accessible at the National Genomics Data Center with accession number OEP003285. The spatial ATAC-RNA-seq mouse brain dataset can be found at [atlasxomics](https://web.atlasxomics.com/visualization/Fan). Spatial ATAC-RNA-seq mouse embryonic day 13 (E13) data reported in https://cells.ucsc.edu/?ds=brain-spatial-omics. 10x Visium human breast cancer gene and protein expression data can be found at https://www.10xgenomics.com/resources/datasets/gene-and-protein-expression-library-of-human-breast-cancer-cytassist-ffpe-2-standard.
 ### 5. Contact
-Feel free to submit an issue or contact us at 21121732@bjtu.edu.cn for problems about the packages.
+Feel free to submit an issue or contact us at wangjinxia0116@163.com for problems about the packages.
