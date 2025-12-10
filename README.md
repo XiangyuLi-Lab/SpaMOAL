@@ -12,8 +12,10 @@ recent paired spatial multi-omics datasets demonstrated that SpaMOAL consistentl
 enabling accurate spatial domain delineation, SpaMOAL provides a powerful framework for interpreting tissue 
 organization and cellular microenvironments.   
 <p align="center">
-  ![image](https://github.com/XiangyuLi-Lab/SpaMOAL/blob/master/SpaMOAL/Fig1.jpg)
+  <img width="1356" height="582" alt="Fig1" src="https://github.com/user-attachments/assets/04d157aa-6b60-40bb-ab8e-a042effef9ec" />
+
 </p>
+
 
 ## Tutorial
 #### Start by grabbing this source codes:
