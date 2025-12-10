@@ -89,6 +89,11 @@ with tf.Session() as sess:
 
     # 保存推断出的图像特征
     np.save(f'../Data/{args.name}/emb_{args.name}_{args.model}_{args.size}.npy', fea_all)
+    emb = np.load(f"../Data/{args.name}/emb_{args.name}_{args.model}_{args.size}.npy")
+    print(emb.shape)
+    df2 = pd.DataFrame(emb)
+    df2.to_csv(f"../Data/{args.name}/image_feature_{args.name}_{args.model}_PCA.csv", index=False)
+    print("step2 sucessful!")
     print("step2 sucessful!")
 
     end = time.time()
