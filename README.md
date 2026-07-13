@@ -12,7 +12,8 @@ recent paired spatial multi-omics datasets demonstrated that SpaMOAL consistentl
 enabling accurate spatial domain delineation, SpaMOAL provides a powerful framework for interpreting tissue 
 organization and cellular microenvironments.   
 <p align="center">
-[model0713.tif](https://github.com/user-attachments/files/29972419/model0713.tif)
+<img width="3269" height="1217" alt="model0713" src="https://github.com/user-attachments/assets/788a127c-1564-4f6c-8736-f13506247fe0" />
+
 
 
 </p>
