@@ -1,4 +1,4 @@
-# SpaMOAL: A spatial multi-omics graph contrastive learning method for spatial domains identification
+# SpaMOAL is a deep learning framework that enables accurate spatial domain identification from multi‑omics data
 ## Overview
 Recent advances in spatial multi-omics technologies have opened new avenues for characterizing tissue architecture and 
 function in situ, by simultaneously providing multimodal and complementary information—such as spatially resolved 
