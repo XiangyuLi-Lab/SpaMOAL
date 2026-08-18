@@ -1,0 +1,23 @@
+metrics:mclust====================================================
+{'AMI': 0.1337407933546128, 'NMI': 0.13996890418331173, 'ARI': 0.09289231575572417, 'Homogeneity': 0.13311174434699435, 'V-measure': 0.13996890418331173, 'Mutual Information': 0.1779680661264479}
+alpha=1.0, beta=0.5, lammbda=0.9, num_iters=10, model=none, n_clusters=4
+
+metrics:mclust====================================================
+{'AMI': 0.13302709692457396, 'NMI': 0.13912617446757863, 'ARI': 0.09553041574169764, 'Homogeneity': 0.1349125613597212, 'V-measure': 0.13912617446757863, 'Mutual Information': 0.18037572686874243}
+alpha=0.8, beta=0.6, lammbda=0.9, num_iters=10, model=none, n_clusters=4
+
+metrics:mclust====================================================
+{'AMI': 0.15385569059881493, 'NMI': 0.15981047296410072, 'ARI': 0.10936267593207762, 'Homogeneity': 0.15491857280372673, 'V-measure': 0.15981047296410072, 'Mutual Information': 0.2071234130707349}
+alpha=0.5, beta=0.7, lammbda=0.9, num_iters=10, model=none, n_clusters=4
+
+metrics:mclust====================================================
+{'AMI': 0.13528813063070488, 'NMI': 0.14145742703123368, 'ARI': 0.09598659327770594, 'Homogeneity': 0.13549629645519437, 'V-measure': 0.14145742703123368, 'Mutual Information': 0.18115617044703922}
+alpha=0.8, beta=0.8, lammbda=0.9, num_iters=10, model=none, n_clusters=4
+
+metrics:mclust====================================================
+{'AMI': 0.13886890924039946, 'NMI': 0.14504509200950125, 'ARI': 0.09443445968811788, 'Homogeneity': 0.13824971375303036, 'V-measure': 0.14504509200950125, 'Mutual Information': 0.1848374410527162}
+alpha=0.7, beta=0.9, lammbda=0.9, num_iters=10, model=none, n_clusters=4
+
+metrics:mclust====================================================
+{'AMI': 0.147325157885817, 'NMI': 0.15344006081300385, 'ARI': 0.0966008821444737, 'Homogeneity': 0.14626028734411956, 'V-measure': 0.15344006081300382, 'Mutual Information': 0.19554743736118194}
+alpha=0.9, beta=1.0, lammbda=0.9, num_iters=10, model=none, n_clusters=4

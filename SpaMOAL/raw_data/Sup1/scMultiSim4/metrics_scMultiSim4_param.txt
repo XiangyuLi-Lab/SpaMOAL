@@ -1,0 +1,39 @@
+metrics:mclust====================================================
+{'AMI': 0.14466218535747796, 'NMI': 0.15054221859858596, 'ARI': 0.11886063391249835, 'Homogeneity': 0.14910968119457738, 'V-measure': 0.15054221859858594, 'Mutual Information': 0.1993570269333587}
+alpha=0.8, beta=0.1, lammbda=0.9, num_iters=10, model=none, n_clusters=4
+
+metrics:mclust====================================================
+{'AMI': 0.13341793113380168, 'NMI': 0.13963320927109765, 'ARI': 0.09243007574004815, 'Homogeneity': 0.13309137830655932, 'V-measure': 0.13963320927109765, 'Mutual Information': 0.17794083708780328}
+alpha=0.8, beta=0.2, lammbda=0.9, num_iters=10, model=none, n_clusters=4
+
+metrics:mclust====================================================
+{'AMI': 0.1494374862393216, 'NMI': 0.15575201925057192, 'ARI': 0.10437932832033621, 'Homogeneity': 0.14478283324087612, 'V-measure': 0.15575201925057194, 'Mutual Information': 0.1935721071539585}
+alpha=0.8, beta=0.3, lammbda=0.9, num_iters=10, model=none, n_clusters=4
+
+metrics:mclust====================================================
+{'AMI': 0.14360049750680007, 'NMI': 0.15009345924574016, 'ARI': 0.08680630708064688, 'Homogeneity': 0.13757433021848944, 'V-measure': 0.15009345924574016, 'Mutual Information': 0.18393446511978453}
+alpha=0.8, beta=0.4, lammbda=0.9, num_iters=10, model=none, n_clusters=4
+
+metrics:mclust====================================================
+{'AMI': 0.13864469714125294, 'NMI': 0.14477424160237337, 'ARI': 0.09585898896122243, 'Homogeneity': 0.13894047664913173, 'V-measure': 0.14477424160237337, 'Mutual Information': 0.1857609789221517}
+alpha=0.8, beta=0.5, lammbda=0.9, num_iters=10, model=none, n_clusters=4
+
+metrics:mclust====================================================
+{'AMI': 0.13302709692457396, 'NMI': 0.13912617446757863, 'ARI': 0.09553041574169764, 'Homogeneity': 0.1349125613597212, 'V-measure': 0.13912617446757863, 'Mutual Information': 0.18037572686874243}
+alpha=0.8, beta=0.6, lammbda=0.9, num_iters=10, model=none, n_clusters=4
+
+metrics:mclust====================================================
+{'AMI': 0.13233735327880938, 'NMI': 0.1388163110154889, 'ARI': 0.08232297913364783, 'Homogeneity': 0.12843716920951417, 'V-measure': 0.1388163110154889, 'Mutual Information': 0.17171824120482815}
+alpha=0.8, beta=0.7, lammbda=0.9, num_iters=10, model=none, n_clusters=4
+
+metrics:mclust====================================================
+{'AMI': 0.13528813063070488, 'NMI': 0.14145742703123368, 'ARI': 0.09598659327770594, 'Homogeneity': 0.13549629645519437, 'V-measure': 0.14145742703123368, 'Mutual Information': 0.18115617044703922}
+alpha=0.8, beta=0.8, lammbda=0.9, num_iters=10, model=none, n_clusters=4
+
+metrics:mclust====================================================
+{'AMI': 0.13089477714701908, 'NMI': 0.1372867136691035, 'ARI': 0.08550713554802986, 'Homogeneity': 0.12824355658072353, 'V-measure': 0.13728671366910353, 'Mutual Information': 0.17145938451797033}
+alpha=0.8, beta=0.9, lammbda=0.9, num_iters=10, model=none, n_clusters=4
+
+metrics:mclust====================================================
+{'AMI': 0.1397886150061281, 'NMI': 0.14593844378895685, 'ARI': 0.09712514295955134, 'Homogeneity': 0.13951694568960707, 'V-measure': 0.14593844378895685, 'Mutual Information': 0.18653170791243318}
+alpha=0.8, beta=1.0, lammbda=0.9, num_iters=10, model=none, n_clusters=4
